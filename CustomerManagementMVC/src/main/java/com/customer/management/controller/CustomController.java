@@ -54,7 +54,7 @@ public class CustomController {
 	}
 	
 	@PostMapping("/save")
-	public String SaveStudent(@RequestParam("id") int id,
+	public String SaveCustomer(@RequestParam("id") int id,
 							  @RequestParam("FirstName") String firstname,
 							  @RequestParam("LastName") String lastname,
 							  @RequestParam("Email") String email) {
